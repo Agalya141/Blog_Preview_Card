@@ -21,7 +21,7 @@ body{
     background-color:var(--white);
     max-width: 27rem;
     border-radius:1rem;
-    padding:1.5rem;
+    padding:clamp(1rem, 4vw, 1.5rem);
     display:flex;
     gap:1.3rem;
     flex-direction:column;
@@ -56,7 +56,7 @@ body{
 }
 .text{
     color:var(--gray-500);
-    font-size:1.2rem;
+    font-size:clamp(1rem, 2vw + 0.5rem, 1.2rem);
     line-height:1.5;
 }
 .content{
