@@ -45,7 +45,7 @@ body{
 .about-text{
     color:var(--black);
     background-color:var(--yellow);
-    padding:0.5rem;
+    padding:clamp(0.4rem, 4vw, 0.5rem);;
     width:fit-content;
     display:inline-block;
     border-radius:0.25rem;
